@@ -1,0 +1,27 @@
+{
+  "function": {
+    "webportfoejs1cc6bfd2": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_webportfoejs1cc6bfd2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "webportfoejs1cc6bfd2"
+        }
+      ]
+    },
+    "AMPLIFY_function_webportfoejs1cc6bfd2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "webportfoejs1cc6bfd2"
+        }
+      ]
+    }
+  }
+}

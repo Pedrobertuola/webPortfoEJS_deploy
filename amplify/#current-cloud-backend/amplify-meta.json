@@ -1,0 +1,43 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webportfoejs-dev-181955-authRole",
+      "UnauthRoleArn": "arn:aws:iam::660941690106:role/amplify-webportfoejs-dev-181955-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::660941690106:role/amplify-webportfoejs-dev-181955-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-webportfoejs-dev-181955-deployment",
+      "UnauthRoleName": "amplify-webportfoejs-dev-181955-unauthRole",
+      "StackName": "amplify-webportfoejs-dev-181955",
+      "StackId": "arn:aws:cloudformation:us-east-1:660941690106:stack/amplify-webportfoejs-dev-181955/296a86a0-b09b-11ed-8d1f-0ab2700ca4cf",
+      "AmplifyAppId": "dashiiwyqzro3"
+    }
+  },
+  "function": {
+    "webportfoejs1cc6bfd2": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2023-02-19T21:25:21.304Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2023-02-19T21:25:21.944Z",
+      "distZipFilename": "webportfoejs1cc6bfd2-31726e474d566d557a75-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-webportfoejs-dev-181955-deployment",
+        "s3Key": "amplify-builds/webportfoejs1cc6bfd2-31726e474d566d557a75-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-webportfoejs-dev-181955-deployment/amplify-cfn-templates/function/webportfoejs1cc6bfd2-cloudformation-template.json",
+        "logicalId": "functionwebportfoejs1cc6bfd2"
+      },
+      "lastPushTimeStamp": "2023-02-19T21:27:02.912Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::660941690106:role/webportfoejsLambdaRole82afc5d9-dev",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:660941690106:function:webportfoejs1cc6bfd2-dev",
+        "Name": "webportfoejs1cc6bfd2-dev",
+        "LambdaExecutionRole": "webportfoejsLambdaRole82afc5d9-dev"
+      },
+      "lastPushDirHash": "u0RSxUnfB9plGjjigF6/oyJOkjY="
+    }
+  }
+}
